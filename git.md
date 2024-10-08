@@ -17,3 +17,24 @@ PUSHING TO GITHUB
 git add .
 git commit -m "updated files"
 git push
+
+VIEWING BRANCHES
+
+git branch
+
+CREATING A BRANCH
+
+git branch myBranch
+
+SWITCH TO A BRANCH
+
+git switch myBranch
+
+MERGING BRANCHES
+
+git switch main
+git merge myBranch
+
+DELETING A BRANCH
+
+git branch -d myBranch
